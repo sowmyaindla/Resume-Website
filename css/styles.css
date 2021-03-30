@@ -93,6 +93,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  backface-visibility: hidden;
 }
 
 [tabindex='-1']:focus:not(:focus-visible) {
@@ -2043,9 +2044,6 @@ pre code {
   }
   .table-responsive-sm > .table-bordered {
     border: 0;
-  }
-  body {
-    background-image: none;
   }
 }
 @media (max-width: 767.98px) {
