@@ -84,7 +84,7 @@ body {
   text-align: left;
   background-color: #fff;
   min-height: 100%;
-  background-image: url('../assets/img/work-table.svg') !important;
+  background-image: url('../assets/img/work-table.svg');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2034,12 +2034,6 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 480px) {
-  body {
-    background-image: none;
-  }
-}
-
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
@@ -2049,6 +2043,9 @@ pre code {
   }
   .table-responsive-sm > .table-bordered {
     border: 0;
+  }
+  body {
+    background-image: none;
   }
 }
 @media (max-width: 767.98px) {
@@ -2060,6 +2057,9 @@ pre code {
   }
   .table-responsive-md > .table-bordered {
     border: 0;
+  }
+  body {
+    background-image: none;
   }
 }
 @media (max-width: 991.98px) {
