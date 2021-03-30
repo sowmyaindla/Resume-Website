@@ -93,7 +93,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  backface-visibility: hidden;
 }
 
 [tabindex='-1']:focus:not(:focus-visible) {
@@ -2033,6 +2032,12 @@ pre code {
 .table-dark.table-hover tbody tr:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: none;
+  }
 }
 
 @media (max-width: 575.98px) {
