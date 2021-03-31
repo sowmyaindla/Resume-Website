@@ -2059,6 +2059,10 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  body {
+    background-image: none;
+    background-color: #fdd5e0;
+  }
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
