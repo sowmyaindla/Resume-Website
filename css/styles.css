@@ -2058,9 +2058,6 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
-  body {
-    background-image: none;
-  }
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
@@ -6500,7 +6497,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #ceebef !important;
+  background-color: #c4e4e3 !important;
 }
 
 a.bg-primary:hover,
