@@ -2046,6 +2046,7 @@ pre code {
   }
   body {
     background-image: none;
+    background-color: #fdd5e0;
   }
 }
 @media (max-width: 767.98px) {
