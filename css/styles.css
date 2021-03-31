@@ -10459,6 +10459,11 @@ p.lead {
   font-weight: 400;
 }
 
+q {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
 .subheading {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
